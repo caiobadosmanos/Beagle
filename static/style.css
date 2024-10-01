@@ -108,7 +108,6 @@ footer {
 
 /* Efeito ao passar o mouse na imagem fixa */
 .imagem-fixa:hover {
-    width: 12%; /* Aumenta o tamanho da imagem ao passar o mouse, ainda como porcentagem */
     cursor: pointer; /* Altera o cursor ao passar o mouse */
 }
 
