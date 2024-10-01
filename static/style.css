@@ -169,4 +169,43 @@ footer {
 .sublinhado {
     text-decoration: underline; /* Adiciona o sublinhado */
 }
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
 
+/* Modelo de caixa */
+*, *::before, *::after {
+    box-sizing: border-box; /* Inclui padding e border na largura total de todos os elementos */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-image: url('grama.jpg');
+    border: 5px solid black;
+    color: black;
+    padding: 15px;
+    width: 100%; /* Faz com que o header ocupe 100% da largura da tela */
+}
+
+/* Estilos gerais do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Faz com que o footer ocupe 100% da largura da tela */
+}
+
+/* Remover margens e padding dos elementos */
+header, footer {
+    margin: 0;
+    padding: 0; /* Ajuste conforme necessário */
+}
+
+/* Resto do seu CSS... */
