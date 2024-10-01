@@ -1,0 +1,159 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-image: url('grama.jpg');
+    border: 5px solid black;
+    color: black;
+    padding: 15px;
+}
+
+/* Lista de navegação no header */
+header ul {
+    list-style-type: none; /* Remove as bolinhas */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Exibe os itens em uma linha */
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: flex-end; /* Alinha à direita */
+    color: black;
+    font-size: 18px; /* Tamanho da fonte dos itens do menu */
+}
+
+/* Estilos dos itens da lista */
+header ul li {
+    color: black;
+}
+
+/* Estilos para os links do menu */
+header ul li a {
+    text-decoration: underline; /* Mantém o sublinhado */
+    text-decoration-color: black; /* Define o sublinhado sempre preto */
+    color: black; /* Define a cor padrão dos links */
+}
+
+/* Estilos para links não visitados */
+header ul li a:link {
+    color: black;
+    text-decoration-color: black; /* Mantém o sublinhado preto */
+}
+
+/* Estilos para links visitados */
+header ul li a:visited {
+    color: black;
+    text-decoration-color: black; /* Mantém o sublinhado preto */
+}
+
+/* Estilos para links ao passar o mouse */
+header ul li a:hover {
+    text-decoration: underline; /* Garante que o sublinhado esteja sempre presente */
+    color: black; /* Mantém a cor do texto preta ao passar o mouse */
+    text-decoration-color: black; /* Mantém o sublinhado preto */
+}
+
+/* Estilos para links ativos */
+header ul li a:active {
+    color: black;
+    text-decoration-color: black; /* Mantém o sublinhado preto */
+}
+
+/* Container principal */
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+/* Estilos para as caixas de conteúdo */
+.box {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para imagens nas caixas */
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos gerais do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Imagem fixa no canto inferior esquerdo */
+/* Imagem fixa no canto inferior esquerdo */
+.imagem-fixa {
+    z-index: 10;
+    position: fixed;
+    bottom: 6%; /* Distância do fundo da página como porcentagem */
+    left: 10px;
+    width: 5%; /* Ajuste para a porcentagem desejada do tamanho total da página */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Efeito ao passar o mouse na imagem fixa */
+.imagem-fixa:hover {
+    width: 12%; /* Aumenta o tamanho da imagem ao passar o mouse, ainda como porcentagem */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+/* Posiciona a segunda imagem fixa acima da primeira */
+#insta {
+    position: fixed; /* Certifique-se de que a posição esteja fixada */
+    bottom: 20%; /* Ajuste a distância para não colidir com a imagem anterior */
+    left: 10px; /* Mesma posição horizontal */
+    width: 5%; /* Mantém o mesmo tamanho */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/* Alinhamento de seções de texto à esquerda */
+section {
+    text-align: left;
+}
+
+/* Estilo para imagens em geral */
+img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+footer{
+background-image:url(grama.jpg);
+    border: 5px solid black;
+    color: black;
+    padding: 15px;}
+
+#mais {
+    height: 40px;
+    position: relative;
+    top: -150px; /* Move o elemento 100px para cima */
+
+}
+#mais:hover{
+height:45px;
+}
+.sublinhado {
+    text-decoration: underline; /* Adiciona o sublinhado */
+}
