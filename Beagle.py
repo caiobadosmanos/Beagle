@@ -18,9 +18,9 @@ def contatos():
 def usuarios(nome_usuario):
     return render_template("usuario.html", nome_usuario=nome_usuario)
 
-@app.route("/regras")
+@app.route("/fotos")
 def regras():
-    return render_template("regras.html")
+    return render_template("fotos.html")
 
 @app.route("/logar")
 def logar():
@@ -79,3 +79,4 @@ def submit_registration():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
